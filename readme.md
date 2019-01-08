@@ -16,9 +16,18 @@ Trying to get the process down on how to setup a new robot project, put it under
 ## Process Overview
 Here we will layout steps for creating a FIRST Robot project in VS Code, putting the project under git version control. Uploading it to GitHub, and setting up colaborators to help in the coding of your robot.
 
+### VS Code and WPILIB Extension
+
 1. In VS Code, bring up the WPILIB command pallet. 
 2. Select "Create new project"
 3. Enter all the basic project information. Make sure that the "Create new folder" checkbox is selected.  This will generate all the basic project files, java templates, gradle settings, etc...
+
+### Creating a local git repo
 4. Now using the command pallet <ctrl + shift + P>, enter git: init and you should see the option of GIT: Initialize Repository.
 5. Now over on the Activity Bar, under Source Control you will have a number next to the icon.  Showing you the number of files that are un-managed and need to be added to your repository.
-6. 
+
+### Uploading to GitHub
+
+### Setting up your team
+
+### Pulling the repo to their machines
