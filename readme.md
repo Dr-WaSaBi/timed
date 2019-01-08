@@ -22,12 +22,22 @@ Here we will layout steps for creating a FIRST Robot project in VS Code, putting
 2. Select "Create new project"
 3. Enter all the basic project information. Make sure that the "Create new folder" checkbox is selected.  This will generate all the basic project files, java templates, gradle settings, etc...
 
+You will now have a basic template robot project created.
+
 ### Creating a local git repo
 4. Now using the command pallet <ctrl + shift + P>, enter git: init and you should see the option of GIT: Initialize Repository.
 5. Now over on the Activity Bar, under Source Control you will have a number next to the icon.  Showing you the number of files that are un-managed and need to be added to your repository.
 
 ### Uploading to GitHub
+1. Using your favorite web browser, go and login to your Github account.
+2. Create a new blank repository with a meaningful name like 2019FRC5523-Robot
+3. Make sure NOT to check the "Create a Readme.md" file.  All your really after here is the URL for the new repository.  Copy the URL to your clipboard.
+4. Back in VS Code, bring up the command pallet <ctrl + shift + P> and enter git: push to and press enter.  
+5. You will be asked for the URL to push your local git code up to.  Paste the URL that GitHub generated for you into this open field and press enter.
+6. Open the command pallet once again and enter PUSH.  This should bring up a menu item of GIT: PUSH.  Selecting this, and pressing enter will push all your local changes up to the GitHub remote repository.
+
 
 ### Setting up your team
+1. Again back over in your favorite web browser go to your
 
 ### Pulling the repo to their machines
