@@ -24,6 +24,12 @@ public class Robot extends TimedRobot {
   private String m_autoSelected;
   private final SendableChooser<String> m_chooser = new SendableChooser<>();
 
+  // Guessing this is where I want to define the ports that things are connected to on the roboRIO?
+  private static final int leftMotorPort = 1;
+  private static final int rightMotorPort = 2;
+  private static final int joyStickPort = 1; //The usb port that the stick is plugged into.
+
+
   /**
    * This function is run when the robot is first started up and should be
    * used for any initialization code.
@@ -83,6 +89,9 @@ public class Robot extends TimedRobot {
 
   /**
    * This function is called periodically during operator control.
+   * 
+   * In here we will want to add code to drive the robot around based
+   * on the inputs of the joystick at the drivers station.
    */
   @Override
   public void teleopPeriodic() {
