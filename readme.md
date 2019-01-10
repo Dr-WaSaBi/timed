@@ -26,7 +26,9 @@ You will now have a basic template robot project created.
 
 ### Creating a local git repo
 4. Now using the command pallet <ctrl + shift + P>, enter git: init and you should see the option of GIT: Initialize Repository.
-5. Now over on the Activity Bar, under Source Control you will have a number next to the icon.  Showing you the number of files that are un-managed and need to be added to your repository.
+5.Now over on the Activity Bar, under Source Control you will have a number next to the icon.  Showing you the number of files that are un-managed and need to be added to your repository. 
+
+![Source Control](/images/sci.png)
 
 ### Uploading to GitHub
 1. Using your favorite web browser, go and login to your Github account.
@@ -41,3 +43,10 @@ You will now have a basic template robot project created.
 1. Again back over in your favorite web browser go to your
 
 ### Pulling the repo to their machines
+
+## The Workflow.
+So now we have a team of developers that have copies of the robot code, but what does that get us.  
+
+Well to start, more then one person at a time can write code.  By assigning each coder a function or robotic feature. That coder can create a branch of the master line of code.  Write and test their feature. Then merge their branch back into the master or main line of code.  All of this can be going on while other coders are doing the same process of creating their own branches for a feature they have been been asked to write.  Test that code, and merge it back in with the master line of code.
+
+### 
