@@ -49,6 +49,8 @@ So now we have a team of developers that have copies of the robot code, but what
 
 Well to start, more then one person at a time can write code.  By assigning each coder a function or robotic feature. That coder can create a branch of the master line of code.  Write and test their feature. Then merge their branch back into the master or main line of code.  All of this can be going on while other coders are doing the same process of creating their own branches for a feature they have been been asked to write.  Test that code, and merge it back in with the master line of code.
 
-### But what if? The Dreaded MERGE CONFLICT! ---- Really this is so painful.
+
+### But what if? The Dreaded MERGE CONFLICT! - It's not that bad.
+
 
 What happens if two people edit the same file and the same lines of code?  Well then you have what is called a **Merge Conflict**.  If you try to merge your branch of code in to the master line of code and you have made a change to a line someone else created you will be stopped and asked which line of code to keep.  The orginal code, or your updated line of code?  
