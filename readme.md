@@ -6,15 +6,14 @@ Trying to get the process down on how to setup a new robot project, put it under
 * Download and install the *WPI/VS Code extensions*, along with the *WPILIB*. Here are the [FIRST Screensteps](http://wpilib.screenstepslive.com/s/currentCS/m/getting_started) for the setting up the 2019 Control System. There is a link to the offline installer. It's 1 gig in size, so make sure you've got the bandwidth or data limits. 
 
 * git - You will need to have a local version of git installed so you can work with your coding team on github.
-    * Windows users will need to download and install a version of git. [Click Here](https://git-scm.com/downloads/win) to download Git for Windows.  
-    * Most Linux might have it installed already.  Open a terminal and enter git.  If you get an error, you most likely need to install it. [Great Instructions for doing that are just a click away.](https://git-scm.com/download/linux)
-    * Mac users can also use this [link to download](https://git-scm.com/download/mac) for Mac OSx
+![gitdownloadpage](/images/gitdownloadpage.png)
+    * [Click Here to goto the git download page](https://git-scm.com/downloads)
     * Make sure to check out the [git docs online](https://git-scm.com/docs)
 
 * VS Code does have support for git built in, but under the market place there are maybe wonderful extensions. GitLens being one I really like. Also in the VS Code market place "Github Pull Requests".  Allowing you to submit a remote Pull Request (also know as a PR) right from the comfort of your editor.
 
 ## Process Overview
-Here we will layout steps for creating a FIRST Robot project in VS Code, putting the project under git version control. Uploading it to GitHub, and setting up colaborators to help in the coding of your robot.
+Here we will layout steps for creating a FIRST Robot project in VS Code, putting the project under git version control. Uploading it to GitHub, and setting up collaborators to help in the coding of your robot.
 
 ### VS Code and WPILIB Extension
 
@@ -38,9 +37,18 @@ You will now have a basic template robot project created.
 5. You will be asked for the URL to push your local git code up to.  Paste the URL that GitHub generated for you into this open field and press enter.
 6. Open the command pallet once again and enter PUSH.  This should bring up a menu item of GIT: PUSH.  Selecting this, and pressing enter will push all your local changes up to the GitHub remote repository.
 
-
 ### Setting up your team
-1. Again back over in your favorite web browser go to your
+1. Again back over in your favorite web browser go to your github account for the repo you just synced up.  
+2. Select the repo settings, which is the gear on the right.
+![Github Settings](/images/githubsettings.png)
+3. Under settings, click on Collaborators
+
+![Github Collab](/images/SettingsCollaborators.png)
+
+4. On the Collaborators page, you can enter their Github screen names, or their registered email address.
+
+![Collaborators](/images/ghcollabpage.png)
+
 
 ### Pulling the repo to their machines
 
@@ -49,8 +57,6 @@ So now we have a team of developers that have copies of the robot code, but what
 
 Well to start, more then one person at a time can write code.  By assigning each coder a function or robotic feature. That coder can create a branch of the master line of code.  Write and test their feature. Then merge their branch back into the master or main line of code.  All of this can be going on while other coders are doing the same process of creating their own branches for a feature they have been been asked to write.  Test that code, and merge it back in with the master line of code.
 
-
 ### But what if? The Dreaded MERGE CONFLICT! - It's not that bad.
 
-
-What happens if two people edit the same file and the same lines of code?  Well then you have what is called a **Merge Conflict**.  If you try to merge your branch of code in to the master line of code and you have made a change to a line someone else created you will be stopped and asked which line of code to keep.  The orginal code, or your updated line of code?  
+What happens if two people edit the same file and the same lines of code?  Well then you have what is called a **Merge Conflict**.  If you try to merge your branch of code in to the master line of code and you have made a change to a line someone else created you will be stopped and asked which line of code to keep.  The original code, or your updated line of code?  
